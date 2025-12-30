@@ -1,4 +1,4 @@
-# Investor-Deal Recommender System
+# two-stage PE recommender
 
 A two-stage recommender system for matching investors with investment opportunities using Two-Tower retrieval and Deep Ranking models.
 
