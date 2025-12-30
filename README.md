@@ -1,4 +1,4 @@
-# two-stage PE recommender
+# Two-stage PE Recommender
 
 A two-stage recommender system for matching investors with investment opportunities using Two-Tower retrieval and Deep Ranking models.
 
@@ -9,11 +9,12 @@ This project implements a sophisticated recommendation system that:
 - Applies a Deep Ranking model with pairwise learning for precise ranking
 - Handles implicit feedback data
 - Includes comprehensive evaluation metrics
+- If you see discrepancy between the input dataset format and various classes design, feel free to reach out to the author to get practical advice for smooth implementation. 
 
 ## Project Structure
 
 ```
-investor-deal-recommender/
+PrivateEquity_RecSys/
 │
 ├── data/                           # Data directory (created by scripts)
 │   ├── enhanced_interactions.csv
@@ -146,7 +147,7 @@ This computes:
 If you use this code, please cite:
 ```
 @software{PrivateEquity_RecSys,
-  title = {two-stage PE recommender},
+  title = {Two-stage PE Recommender},
   author = {czhang165},
   year = {2025},
   url = {https://github.com/czhang165/PrivateEquity_RecSys}
